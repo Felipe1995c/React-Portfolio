@@ -1,0 +1,34 @@
+{
+    "short_name": "Portfolio",
+    "name": "My Full Stack Developer Portfolio",
+    "description": "A React-powered full stack developer portfolio showcasing my projects, skills, and contact information.",
+    "icons": [
+      {
+        "src": "/icons/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/icons/icon-256x256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "/icons/icon-384x384.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "/icons/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#ffffff",
+    "theme_color": "#0d6efd",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "en-US"
+  }
