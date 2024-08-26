@@ -1,7 +1,6 @@
 import React from "react";
-import { VscGithubAlt } from "react-icons/vsc";
-import { AiOutlineLinkedin } from "react-icons/ai";
-import { FaInstagram } from "react-icons/fa";
+
+
 
 function Footer() {
   return (

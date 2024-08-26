@@ -6,7 +6,7 @@ import Portfolio from "../src/components/Portfolio";
 //import Resume from "../src/components/Resume";
 import Footer from "./components/Footer";
 import { Helmet } from "react-helmet";
-import "./Styles/main.css";
+import "./Styles/App.css";
 
 function App() {
   const [currentTab, handleTabChange] = useState("about");
@@ -23,7 +23,7 @@ function App() {
       return <Portfolio />;
     }
     if (currentTab === "Resume") {
-      return <Resume />;
+      return < /*Resume*/ />;
     }
     return <About />;
   };
@@ -31,14 +31,16 @@ function App() {
   return (
     <>
     <Helmet>
-        <title> Felipe's Full Stack Portfolio | {current tab} </title>
+        <title> Felipe's Full Stack Portfolio | {currentTab} </title>
     </Helmet>;
-    <header currentTab={currentTab}
+    <Header currentTab={currentTab}
     handleTabChange={handleTabChange}>
-    </header>
+    </Header>
     <main>{renderTab()}</main>
-    <footer></footer>
+    <Footer></Footer>
     </>
   );
 }
 export default App;
+
+
