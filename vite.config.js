@@ -10,4 +10,9 @@ export default defineConfig({
       jsxFactory: 'React.createElement',
       jsxFragment: 'React.Fragment',
     },
-  })
+    
+      test: {
+        globals: true,
+        enviroment: 'happy-dom'
+      },
+      })

@@ -7,6 +7,7 @@ import Portfolio from "../src/components/Portfolio";
 import Footer from "./components/Footer";
 import { Helmet } from "react-helmet";
 import "./Styles/App.css";
+import Nav from "./Components/Navigation";
 
 function App() {
   const [currentTab, handleTabChange] = useState("about");
