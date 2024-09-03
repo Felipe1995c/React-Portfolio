@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // Here we import a helper function that will check if the email is valid
-import { validateEmail } from "../../SRC/Components/helpers";
+import { validateEmail } from "./helpers";
 
 function Contact() {
   // Create state variables for the fields in the form

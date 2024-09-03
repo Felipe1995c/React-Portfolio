@@ -1,8 +1,10 @@
 {
   "name": "react-portfolio",
   "version": "1.0.0",
+  "type": "module",
+  "private": true,
   "description": "Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "dev": "vite",
     "start": "vite",
@@ -12,12 +14,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3",
     "@testing-library/react": "^14.0.0",
+    "bootstrap": "^5.2.3",
+    "happy-dom": "^9.20.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-     "vitest": "^1.4.0",
-     "happy-dom": "^9.20.3"
+    "react-icons": "^5.3.0",
+    "vitest": "^1.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

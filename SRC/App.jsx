@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import Header from "./components/Header";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Portfolio from "../src/components/Portfolio";
+import Header from "./Components/Header";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Portfolio from "./src/components/Portfolio";
 //import Resume from "../src/components/Resume";
-import Footer from "./components/Footer";
-import { Helmet } from "react-helmet";
+import Footer from "./Components/Footer";
+import { Helmet } from "react-helmet-async";
 import "./Styles/App.css";
-import Nav from "./Components/Navigation";
+// import Nav from "./Components/Navigation";
 
 function App() {
   const [currentTab, handleTabChange] = useState("about");
@@ -24,7 +24,7 @@ function App() {
       return <Portfolio />;
     }
     if (currentTab === "Resume") {
-      return < /*Resume*/ />;
+      return //Resume component;
     }
     return <About />;
   };
@@ -38,7 +38,7 @@ function App() {
     handleTabChange={handleTabChange}>
     </Header>
     <main>{renderTab()}</main>
-    <Footer></Footer>
+    <Footer />
     </>
   );
 }
