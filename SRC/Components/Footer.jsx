@@ -10,12 +10,12 @@ function Footer() {
         <ul>
           <a href="https://github.com/felipe1995c">
             <li className="logo">
-              < add component for github/>
+              {/* < add component for github/> */}
             </li>
           </a>
           <a href="placeholder">
             <li className="logo">
-              < add linkedIn logo />
+              {/* < add linkedIn logo /> */}
             </li>
           </a>
         </ul>
