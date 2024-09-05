@@ -1,68 +1,87 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0a1f44; /* Dark Royal Blue */
+  color: #ffffff;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  text-decoration: none;
+  color: #1f77ff;
 }
+
 a:hover {
-  color: #535bf2;
+  color: #a8cfff;
 }
 
-body {
-  margin: 0;
+/* Navbar Styles */
+.nav {
+  background-color: #0a1f44;
+  padding: 1rem;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  text-decoration: underline;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.nav li {
+  margin: 0 1rem;
+  list-style: none;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.nav a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #22446e;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #0a1f44;
+  color: #ffffff;
+  text-align: center;
+  padding: 10rem 1rem;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+/* Footer Styles */
+footer {
+  background-color: #0a1f44;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  color: #a8cfff;
 }

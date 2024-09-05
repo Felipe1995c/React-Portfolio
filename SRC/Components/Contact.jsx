@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "./helpers.jsx";
@@ -62,9 +65,9 @@ function Contact() {
           <p>Contact Me!</p>
           <address>
             San Diego, CA <br />
-            P: <a href="tel:619.933.5721">619.933.5721</a>
+            <FontAwesomeIcon icon={faPhone} /> Phone: <a href="tel:619.933.5721">619.933.5721</a>
             <br />
-            E:{" "}
+            <FontAwesomeIcon icon={faEnvelope} /> Email:{" "}
             <a href="mailto://felipe1995c@gmail.com">
               felipe1995c@gmail.com
             </a>

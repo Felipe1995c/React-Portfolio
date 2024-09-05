@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "./Components/Header";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
-// import Portfolio from "./Components/Portfolio";  
+import Portfolio from "./Components/Portfolio";  
 // import Resume from "./Components/Resume";        
 import Footer from "./Components/Footer";
 import "./Styles/App.css";
@@ -16,6 +16,7 @@ function App() {
       <Header />
       <Contact />
       <About />
+      <Portfolio />
       <Footer />
     </>
   );
