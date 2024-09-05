@@ -1,5 +1,5 @@
 import React from "react";
-// import profileImage from "../Images/profile.jpg"; // Ensure this image exists
+import profileImage from "/Images/profile picture for school.png"; // Ensure this image exists
 
 function About() {
   return (
@@ -12,7 +12,7 @@ function About() {
       <div className="flex-row">
         <div className="intro-info">
           <div className="intro-img">
-            {/* <img src={profileImage} style={{ width: "100%" }} alt="profile" /> */}
+            <img src={profileImage} style={{ width: "40%", height: "600px" }} alt="profile" />
           </div>
           <p>
             Hello Everyone!! My name is Felipe. I am 29 years old, trying to

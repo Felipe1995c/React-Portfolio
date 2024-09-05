@@ -131,6 +131,9 @@ section {
   max-width: 100%;
   border-radius: 10px;
   margin-bottom: 2rem;
+  display: block;
+  margin: 0 auto; 
+
 }
 
 .contact-info form {
@@ -160,3 +163,5 @@ section {
 .contact-info button:hover {
   background-color: #a8cfff;
 }
+
+
