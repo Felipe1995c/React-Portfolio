@@ -10,13 +10,15 @@ function Footer() {
         <ul>
           <a href="https://github.com/felipe1995c">
             <li className="logo">
-            <FontAwesomeIcon icon={faGithub} /> 
+            <FontAwesomeIcon icon={faGithub} /> <span></span>
+            GitHub 
             </li>
           </a>
           <a href="placeholder">
             <li className="logo">
             <FontAwesomeIcon icon={faLinkedin} />
             </li>
+            LinkedIn
           </a>
         </ul>
       </p>

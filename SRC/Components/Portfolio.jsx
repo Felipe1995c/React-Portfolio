@@ -1,21 +1,23 @@
 import React from "react";
 import "../Styles/App.css"; // Link to your CSS file
+// import DIYHubLogo from "../Images/DIYhubLogo.png";
+// import WeatherNowImage from "../Images/WeatherNow.png";
 
 function Portfolio() {
   const projects = [
     {
-      title: "Project 1",
-      description: "A short description of Project 1.",
-      link: "https://github.com/YourUsername/Project1",
-      image: "https://via.placeholder.com/300", // Replace with your project image URL
-      technologies: ["React", "Node.js", "MongoDB"], // Replace with actual tech stack
+      title: "WeatherNow",
+      description: "This is a weather app created using the openWeatherMap API to make our own twist to getting the weather data for any given city.",
+      link: "https://felipe1995c.github.io/WeatherNow/",
+      image: "/Images/weatherNow-APP.jpg", 
+      technologies: ["HTML", "CSS", "JavaScript"], 
     },
     {
-      title: "Project 2",
+      title: "DIY-Hub",
       description: "A short description of Project 2.",
-      link: "https://github.com/YourUsername/Project2",
-      image: "https://via.placeholder.com/300", // Replace with your project image URL
-      technologies: ["JavaScript", "HTML", "CSS"], // Replace with actual tech stack
+      link: "https://felipe1995c.github.io/DIY-hub/",
+      image: "/Images/DIYhublogo.png", 
+      technologies: ["JavaScript", "HTML", "CSS"],
     },
     // Add more projects here
   ];

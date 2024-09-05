@@ -85,3 +85,6 @@ footer p {
   margin: 0;
   color: #a8cfff;
 }
+footer li {
+  list-style: none;
+}
