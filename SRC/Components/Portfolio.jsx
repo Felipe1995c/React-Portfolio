@@ -9,14 +9,14 @@ function Portfolio() {
       title: "WeatherNow",
       description: "This is a weather app created using the openWeatherMap API to make our own twist to getting the weather data for any given city.",
       link: "https://felipe1995c.github.io/WeatherNow/",
-      image: "/Images/weatherNow-APP.jpg", 
+      image: "./Images/weatherNow-APP.jpg", 
       technologies: ["HTML", "CSS", "JavaScript"], 
     },
     {
       title: "DIY-Hub",
       description: "A short description of Project 2.",
       link: "https://felipe1995c.github.io/DIY-hub/",
-      image: "/Images/DIYhublogo.png", 
+      image: "./Images/DIYhublogo.png", 
       technologies: ["JavaScript", "HTML", "CSS"],
     },
     // Add more projects here
