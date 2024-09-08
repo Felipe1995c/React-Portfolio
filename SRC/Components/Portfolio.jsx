@@ -1,10 +1,10 @@
 import React from "react";
 import "../Styles/App.css"; // Link to your CSS file
-import DIYHubLogo from "../../Public/images/DIYHubLogo.png";
-import PayrollTracker from "../../Public/images/Screenshot Payroll Tracker.jpg";
-import KanbanBoard from "../../Public/images/new tasks.jpg";
-import NoteTaker from "../../Public/images/Note_taker buttons.jpg";
-import PersonalBlog from "../../Public/images/blog-drk mode screenshot.jpg";
+import DIYHubLogo from "../../public/images/DIYHubLogo.png";
+import PayrollTracker from "../../public/images/Screenshot Payroll Tracker.jpg";
+import KanbanBoard from "../../public/images/new tasks.jpg";
+import NoteTaker from "../../public/images/Note_taker buttons.jpg";
+import PersonalBlog from "../../public/images/blog-drk mode screenshot.jpg";
 
 function Portfolio() {
   const projects = [
