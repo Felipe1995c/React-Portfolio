@@ -1,7 +1,6 @@
 import React from "react";
 import "../Styles/App.css"; // Link to your CSS file
 import DIYHubLogo from "../../Public/images/DIYHubLogo.png";
-import WeatherNowImage from "../../Public/images/weatherNow-APP.jpg";
 
 function Portfolio() {
   const projects = [
@@ -9,7 +8,7 @@ function Portfolio() {
       title: "WeatherNow",
       description: "This is a weather app created using the openWeatherMap API to make our own twist to getting the weather data for any given city.",
       link: "https://felipe1995c.github.io/WeatherNow/",
-      image: WeatherNowImage, // Use the imported image variable here
+      image: "./images/weatherNow-APP.jpg",      
       technologies: ["HTML", "CSS", "JavaScript"],
     },
     {
@@ -19,7 +18,7 @@ function Portfolio() {
       They can choose a room in a house and have them redirected to another page where 
       there will be videos and pictures to show and inspire users with projects they can do themselves.`,
       link: "https://felipe1995c.github.io/DIY-hub/",
-      image: DIYHubLogo, // Use the imported image variable here
+      image: DIYHubLogo, 
       technologies: ["JavaScript", "HTML", "CSS"],
     },
     // Add more projects here
