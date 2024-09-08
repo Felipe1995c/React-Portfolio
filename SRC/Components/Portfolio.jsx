@@ -14,7 +14,10 @@ function Portfolio() {
     },
     {
       title: "DIY-Hub",
-      description: "A short description of Project 2.",
+      description: `This app was created with the goal of creating an app 
+      where users can come to look for inspiration for home improvements projects. 
+      They can choose a room in a house and have them redirected to another page where 
+      there will be videos and pictures to show and inspire users with projects they can do themselves.`,
       link: "https://felipe1995c.github.io/DIY-hub/",
       image: "./Images/DIYhublogo.png", 
       technologies: ["JavaScript", "HTML", "CSS"],
