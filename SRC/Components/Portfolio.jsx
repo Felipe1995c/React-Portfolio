@@ -1,6 +1,10 @@
 import React from "react";
 import "../Styles/App.css"; // Link to your CSS file
 import DIYHubLogo from "../../Public/images/DIYHubLogo.png";
+import PayrollTracker from "../../Public/images/Screenshot Payroll Tracker.jpg";
+import KanbanBoard from "../../Public/images/new tasks.jpg";
+import NoteTaker from "../../Public/images/Note_taker buttons.jpg";
+import PersonalBlog from "../../Public/images/blog-drk mode screenshot.jpg";
 
 function Portfolio() {
   const projects = [
@@ -21,6 +25,34 @@ function Portfolio() {
       image: DIYHubLogo, 
       technologies: ["JavaScript", "HTML", "CSS"],
     },
+    {
+      title: "Employee Payroll Tracker",
+      description: `A simple app that can be used by a business to track how much each employee makes.
+      It also allows for adding, editing, and removal of employees to organize and track expenses.`,
+    image: PayrollTracker,
+    technologies: ["HTML","CSS","JavaScript"],  
+    },
+    {
+      title: "Kanban Board (To do app)",
+      description: `A simple Kanban board designed to organize tracking the everyday duties. 
+      Allowing for adding, deleting, and could even implement further designs if requested. Such as drag and drop.`,
+    image: KanbanBoard,
+    technologies: ["HTML","CSS","JavaScript"],
+    },
+    {
+      title: "Note Taker",
+      description: `A application created with a similar idea to the Kanban board. This App is more for simple daily or 
+      less tracked notes because time and date is not included in this version.`,
+    image: NoteTaker,
+    technologies: ["HTML","CSS","JavaScript"],
+    },
+    {
+      title: "Personal Blog",
+      description: `A real quick idea of a blog with basic components to show the abililty to create a blog. 
+      There are many more ways to customize and add to this app. This app also shows the light and dark mode capability.`,
+    image: PersonalBlog,
+    technologies: ["HTML","CSS","JavaScript"],
+    }
     // Add more projects here
   ];
 
