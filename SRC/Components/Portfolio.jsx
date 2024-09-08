@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/App.css"; // Link to your CSS file
-import DIYHubLogo from "../../Images/DIYHubLogo.png";
-import WeatherNowImage from "../../Images/weatherNow-APP.jpg";
+import DIYHubLogo from "/Images/DIYHubLogo.png";
+import WeatherNowImage from "/Images/weatherNow-APP.jpg";
 
 function Portfolio() {
   const projects = [
