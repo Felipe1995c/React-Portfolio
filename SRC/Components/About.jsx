@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from "../../Public/images/profile picture for school.png"; // Ensure this image exists
+import profileImage from "../assets/images/profile picture for school.png"; // Ensure this image exists
 
 function About() {
   return (
